@@ -13,6 +13,7 @@ body{
 
 .header{
     padding-top: 50px;
+    color:aquamarine;
 }
 
 .logo{
@@ -29,14 +30,14 @@ body{
     gap: 50px;
 }
 
-.CD-wrapper{
-    width: 500px;
-    height: 500px;
-    display: flex;
-    background-size: cover;
+.profile-wrapper p{
     text-align: center;
-    background-position: center;
-    padding: 60px;
+    font-size: 30px;
+}
+
+.profile-wrapper li{
+    text-align: center;
+    font-size: 50px;
 }
 
 .image-wrapper{
