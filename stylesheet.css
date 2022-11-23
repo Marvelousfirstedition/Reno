@@ -45,19 +45,10 @@ body{
     background-size: cover;
 }
 
-@media(max-width: 767px){
-    .URL ul{
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .image-wrapper{
-        width: 767px;
-        height: 500px;
-    }
-
-    .CD-wrapper{
-        width: 767px;
-        height: 500px;
+@media all and (max-width: 670px) {
+    .image-wrapper img{
+        align-items: flex-start;
+        width: 375px;
+        height: 375px;
     }
 }
