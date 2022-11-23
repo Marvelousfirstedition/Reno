@@ -46,10 +46,10 @@ body{
     height: 100%
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 750px) {
     .image-wrapper img{
         align-items: flex-start;
-        width: 375px;
+        width: 750px;
         height: 375px;
     }
 }
