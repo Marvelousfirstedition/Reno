@@ -1,5 +1,4 @@
 html {
-    font-size: 25px;
     font-family: sans-serif;
 }
 
@@ -67,10 +66,15 @@ body{
     }
 
     .URL li{
-        text-align: center;
+        font-size: 15px;
     }
 
     .profile-wrapper{
         text-align: center;
+        width: 480px;
+    }
+
+    .header{
+        width: 480px;
     }
 }
