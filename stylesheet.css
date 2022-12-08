@@ -13,7 +13,7 @@ body{
 
 .header{
     padding-top: 50px;
-    color:aquamarine;
+    background-color:aquamarine;
 }
 
 .logo{
@@ -28,6 +28,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.profile-wrapper{
+    background-color: turquoise;
 }
 
 .profile-wrapper p{
@@ -52,5 +56,21 @@ body{
         align-items: flex-start;
         width: 750px;
         height: 375px;
+    }
+}
+@media all and (max-width: 480px){
+
+    .image-wrapper img{
+        align-items: flex-start;
+        width: 480px;
+        height: 480px;
+    }
+
+    .URL li{
+        text-align: center;
+    }
+
+    .profile-wrapper{
+        text-align: center;
     }
 }
